@@ -21,8 +21,8 @@ async function main() {
     debug('catch', 'code', e.code, 'exception', e);
   } finally {
     debug('start release');
-    relaese();
-    debug('end release')
+    await relaese();
+    debug('end release');
   }
 }
 
