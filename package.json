@@ -1,0 +1,25 @@
+{
+  "name": "ilock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconicompany/ilock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iconicompany/ilock/issues"
+  },
+  "homepage": "https://github.com/iconicompany/ilock#readme",
+  "dependencies": {
+    "await-timeout": "^1.1.1",
+    "debug": "^4.3.4",
+    "proper-lockfile": "^4.1.2"
+  }
+}
